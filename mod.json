@@ -1,6 +1,7 @@
 {
-	"name": "BugFix",
+	"name": "bugfix",
+	"update": "github:tera-mods/bugfix",
+	"title": "Bugfix",
 	"author": "Pinkie Pie",
-	"namespace": "bugfix",
-	"update": "github:tera-mods/bugfix"
+	"description": "Fixes some of the most severe client bugs in TERA."
 }
