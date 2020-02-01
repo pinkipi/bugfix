@@ -14,7 +14,7 @@ module.exports = function PrivateChat(mod) {
 		}
 	})
 
-	mod.hook('S_REPLY_CLIENT_CHAT_OPTION_SETTING', 'raw', { order: 50, fake: null }, () => {
+	mod.hook('S_REPLY_CLIENT_CHAT_OPTION_SETTING', 'raw', { order: 50, filter: { fake: null } }, () => {
 		if(channels) {
 			if(channels.length) {
 				const tempChannels = channels // Copy channels ref so it's available on the next tick
