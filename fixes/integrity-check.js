@@ -1,6 +1,8 @@
 // Validates that our packet integrity checks are still working
 
 module.exports = function IntegrityCheck(mod) {
+	if(mod.patchVersion < 93) return
+
 	let good = 0
 	let hook = mod.hook('*', 'raw', { order: -Infinity, filter: { incoming: false } }, (code, data) => {
 		if(!mod.dispatch.protocol.getIntegrity(code)) return
