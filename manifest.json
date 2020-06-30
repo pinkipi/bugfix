@@ -1,6 +1,6 @@
 {
 	"data": {
-		"fixes/chat-sanitizer.js": "hvoZ5qpwI6SsN/kANW/kYT/T2yY9NE4GzI4JW2xDoPc=",
+		"fixes/chat-sanitizer.js": "fWom/dpX8Xf9AbYpvfJKtCVeRytKFh3IL0LWZRAMmSw=",
 		"fixes/integrity-check.js": "jBP14cyuPLHRnkQZJEpFDuMV305VE2dN7O2PwjVVVf8=",
 		"fixes/private-chat.js": "YwLHq5MBRstyRgeldTZ9o7r+5dc2juXwAHokBdjBWR8=",
 		"fixes/swim-fix.js": "WAwBM3Ss+5BaepZ2SFM8KiQlSD2NKx12zvDapiVYDG4=",
@@ -8,5 +8,5 @@
 		"mod.json": "s4fr2wmzaoB5Lz+GYVTFCPrDw1h5KX6sQKIIx6SdjUA="
 	},
 	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
-	"signature": "3srjHHxPG3R7u2LUi7oiR8oKgRU+vcF36pKw7B2tjJYhShn+wJvYV1tnRJJ1Wts13uS5CDJ+PPVMNlts1eiVBA=="
+	"signature": "UqMha8pQQnX5PXF88pZKhnJyytL2Jt5DLgbdjypugkEf14XpnWpWZfPuLrrxw2kJiS4QMDFfY7xJcTABLKUBAQ=="
 }
