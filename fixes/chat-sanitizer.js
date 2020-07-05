@@ -1,6 +1,6 @@
 // Removes potentially malicious injected HTML content from other users' chat messages ~Pinkie Pie
 
-const HTML_ESCAPED = { '<': '&lt;', '>': '&gt;', '&': '&amp;' }
+const HTML_ESCAPED = { '<': '&lt;', '>': '&gt;' }
 
 module.exports = function ChatSanitizer(mod) {
 	// Chat
@@ -52,8 +52,9 @@ module.exports = function ChatSanitizer(mod) {
 
 	function validateChatLinkAction(param) {
 		return /^1#####\d+@\d+@[^#@]+$/.test(param)
+			|| /^2#####\d+$/.test(param)
 			|| /^3#####\d+_\d+_\d+@\d+@-?\d+(\.\d+)?,-?\d+(\.\d+)?,-?\d+(\.\d+)?$/.test(param)
 	}
 
-	function escapeHtml(str) { return str.replace(/[<>&]/g, m => HTML_ESCAPED[m]) }
+	function escapeHtml(str) { return str.replace(/[<>]/g, m => HTML_ESCAPED[m]) }
 }
