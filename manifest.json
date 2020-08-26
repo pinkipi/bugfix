@@ -1,5 +1,6 @@
 {
 	"data": {
+		"fixes/anti-spyware.js": "rzJU6cXXUKQIUN5UAX/KFgdYzB/nRZHQsXaGjtMsYic=",
 		"fixes/chat-sanitizer.js": "PkcdU8vhvX99cGDNBkxfmetJqPRPYNxMX0grnsKn5tM=",
 		"fixes/integrity-check.js": "jBP14cyuPLHRnkQZJEpFDuMV305VE2dN7O2PwjVVVf8=",
 		"fixes/private-chat.js": "YwLHq5MBRstyRgeldTZ9o7r+5dc2juXwAHokBdjBWR8=",
@@ -8,5 +9,5 @@
 		"mod.json": "s4fr2wmzaoB5Lz+GYVTFCPrDw1h5KX6sQKIIx6SdjUA="
 	},
 	"publicKey": "MCowBQYDK2VwAyEAY31fpV8rIvZ3zGJE6nqoLXcI27/C3xmjDWV7PDavK4w=",
-	"signature": "0JGOHroqOeutIHDcwXssAuRfJcS27zotupD9bTd7b0zFcE+n6qVsXEvxRzqarzjZP3YxGIntPT2ia9lSsbsZAg=="
+	"signature": "6zz7GOe9iOWeFOIxRzCc2+PMelZd5UEk7KzGmD7YdcxDMZ0o36YaRcIcNDrrM5+HBZo0RY8aOihcYgYHEuh0BA=="
 }
